@@ -83,7 +83,7 @@ function Home() {
               <p className="card_txt">Full-cut facets in high-octane hues reinterpret crystals with contemporary drama. A striking display of Swarovski’s mastery of light, statement earrings inspire you to shine your brightest.
               </p>
               <div className="button">
-                <button className="btn">Discover more</button>
+                <button className="btn">Discover morer</button>
               </div>
             </div>
           </div>
