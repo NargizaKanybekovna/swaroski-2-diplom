@@ -1,0 +1,61 @@
+.delivery-container {
+    padding: 50px;
+    background: rgb(246, 248, 250);
+    
+  }
+  
+  .delivery-options {
+    margin-bottom: 30px; 
+  }
+  
+  .delivery-options h2 {
+    color: #333; 
+  }
+  
+  .delivery-options ul {
+    list-style-type: none; 
+    padding-left: 0; 
+  }
+  
+  .delivery-options li {
+    margin-bottom: 15px; 
+    font-size: 16px; 
+    color: #666; 
+  }
+  
+  .delivery-form {
+    margin-bottom: 30px;
+  }
+  
+  .delivery-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .delivery-form label {
+    margin-bottom: 10px;
+  }
+  
+  .delivery-form input[type="text"],
+  .delivery-form input[type="tel"],
+  .delivery-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .delivery-form button {
+    width: 20%;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delivery-form button:hover {
+    background-color: #555;
+  }

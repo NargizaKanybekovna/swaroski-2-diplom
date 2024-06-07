@@ -1,0 +1,32 @@
+.CategoryList {
+    background: rgba(53, 50, 50, 0.3);
+}
+
+.CategoryList a {
+    display: block;
+    padding: 1px 8px;
+    transition: 0.3s;
+}
+
+.CategoryList a:hover {
+    background: rgba(53, 50, 50, 0.3);
+    color: aliceblue;
+
+}
+
+.dropdownBtn {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.dropdownBtn :hover {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1;
+}
+.dropdownBtn li {
+    list-style-type: none;
+  }

@@ -1,0 +1,73 @@
+.Menu {
+  width: 100%;
+}
+
+
+.Menu li {
+  text-transform: uppercase;
+  padding: 3px 10px;
+  font-weight: 600;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.Menu li:hover {
+  border-color: rgba(53, 50, 50, 0.3);
+}
+
+.Foot_menu {
+  width: calc(100% - 250px);
+}
+
+footer .Menu ul {
+  flex-direction: column;
+  font-size: 12px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+footer .Menu li {
+  margin-bottom: 8px;
+  padding: 3px 0 1px;
+  text-transform: none;
+}
+
+.menu_list {
+  color: aliceblue;
+  font-size: 15px;
+  width: 100%;
+}
+
+.CategoryList ul {
+  display: none;
+}
+
+
+.CategoryList:hover ul {
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px 0 0;
+}
+
+
+.CategoryList ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.CategoryList ul li {
+  padding: 5px 0;
+}
+
+.CategoryList ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.CategoryList ul li a:hover {
+  color: #fff;
+  ;
+}
+

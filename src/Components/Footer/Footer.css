@@ -1,0 +1,62 @@
+footer {
+    padding: 30px 0 20px;
+    background: black;
+    color: aliceblue;
+}
+
+.footer_menu {}
+
+.footer_list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 35px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: aliceblue;
+}
+.footer_list::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    transition: 0.3s ease;
+
+}
+.footer_list:hover::after{
+    width: 100%;
+}
+.footer_content{
+    margin-top: 20px;
+}
+.footer_icon {
+    background-image: url(..//..//img/country_white.svg);
+
+}
+.footer_end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px; 
+  }
+  
+  .footer_title {
+    width: 20%; 
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+  
+  .footer_logo img {
+    width: 150px; 
+  }
+  
+  .footer_ic {
+    margin-left: 10px; 
+  }
+  
+  .footer_ic img {
+    width: 30px; 
+  }
