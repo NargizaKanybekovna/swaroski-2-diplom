@@ -28,13 +28,13 @@ function Footer() {
             <h3 className="footer_tit">ABOUT US</h3>
             <ul className="footer_list">
               <li> <Link to="">About Swarovski</Link></li>
-              <li> <Link to="">Sustainability</Link></li>
+
               <li> <Link to="">Jobs & Career</Link></li>
-              <li> <Link to="">Alumni Community</Link></li>
-              <li> <Link to="">Corporate Gifts</Link></li>
+
+
               <li> <Link to="">For Professionals</Link></li>
               <li> <Link to="">Sitemap</Link></li>
-              <li> <Link to="">Kristallwelten</Link></li>
+
               <li> <Link to="">Swarovski Mobility</Link></li>
               <li> <Link to="">Code of Conduct</Link></li>
             </ul>
@@ -52,23 +52,23 @@ function Footer() {
           </div>
 
         </div>
-            <hr />
-      <div className="footer_content flex">
-        <Link to="" className="footer_icon"></Link>
-        <Link to="" className="">Other Countries / Regions | en</Link>
-      </div>
-      <div className="footer_end flex">
-        <p className="footer_title">Copyright © 2024 Swarovski Other Countries / Regions. All rights reserved.
-          SWAROVSKI and the SWAN logo are registered and trademarks of Swarovski AG.</p>
-        <Link to="https://www.swarovski.com/en-AA/" className="footer_logo"><img src={LogoImg} alt="" /></Link>
-        <Link to="https://www.facebook.com/SWAROVSKI.global/?locale=ru_RU" className="footer_ic"><img src={fbImg} alt="" /> </Link>
-        <Link to="https://ru.pinterest.com/swarovski/" className="footer_ic"><img src={PinterestImg} alt="" /></Link>
-        <Link to="https://www.instagram.com/swarovski/" className="footer_ic"><img src={InstImg} alt="" /></Link>
-        <Link to="https://www.youtube.com/SWAROVSKI" className="footer_ic"><img src={YouTubeImg} alt="" /></Link>
-        <Link to="https://www.tiktok.com/@swarovski" className="footer_ic"><img src={TikTokImg} alt="" /></Link>
-        <Link to="https://x.com/swarovski" className="footer_ic"><img src={TWImg} alt="" /></Link>
+        <hr />
+        <div className="footer_content flex">
+          <Link to="" className="footer_icon"></Link>
+          <Link to="" className="">Other Countries / Regions | en</Link>
+        </div>
+        <div className="footer_end flex">
+          <p className="footer_title">Copyright © 2024 Swarovski Other Countries / Regions. All rights reserved.
+            SWAROVSKI and the SWAN logo are registered and trademarks of Swarovski AG.</p>
+          <Link to="https://www.swarovski.com/en-AA/" className="footer_logo"><img src={LogoImg} alt="" /></Link>
+          <Link to="https://www.facebook.com/SWAROVSKI.global/?locale=ru_RU" className="footer_ic"><img src={fbImg} alt="" /> </Link>
+          <Link to="https://ru.pinterest.com/swarovski/" className="footer_ic"><img src={PinterestImg} alt="" /></Link>
+          <Link to="https://www.instagram.com/swarovski/" className="footer_ic"><img src={InstImg} alt="" /></Link>
+          <Link to="https://www.youtube.com/SWAROVSKI" className="footer_ic"><img src={YouTubeImg} alt="" /></Link>
+          <Link to="https://www.tiktok.com/@swarovski" className="footer_ic"><img src={TikTokImg} alt="" /></Link>
+          <Link to="https://x.com/swarovski" className="footer_ic"><img src={TWImg} alt="" /></Link>
 
-      </div>
+        </div>
       </div>
     </footer >
   );

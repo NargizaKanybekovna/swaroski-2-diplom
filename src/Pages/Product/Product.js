@@ -4,6 +4,7 @@ import { AppContext } from "../../App";
 import NotFound from "../NotFound/NotFound";
 import { AddToCart } from "../../Components/AddToCart/AddToCart";
 
+
 export default function Product() {
   const { params } = useMatch("/products/:slug");
   const { products } = useContext(AppContext);
@@ -24,6 +25,7 @@ export default function Product() {
         <p><strong>Price:</strong> {product.price}$</p>
         <p><strong>Description: </strong>{product.description}</p>
         <AddToCart product={product} />
+     
       </div>
     </div>
   )

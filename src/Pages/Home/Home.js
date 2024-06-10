@@ -33,9 +33,7 @@ function Home() {
           <video width="100%" height="auto" autoPlay muted loop>
             <source src={video} type="video/mp4" />
           </video>
-          <h2 className="Home_tit">Sping/Summer 2024</h2>
-          <h3 className="Home_txt">Embrace the art of self-expression </h3>
-          <div className="button">
+          <div className="button flex">
             <button className="btn_home">Discover more</button>
             <button className="btn_home">Read me</button>
           </div>
@@ -83,7 +81,7 @@ function Home() {
               <p className="card_txt">Full-cut facets in high-octane hues reinterpret crystals with contemporary drama. A striking display of Swarovski’s mastery of light, statement earrings inspire you to shine your brightest.
               </p>
               <div className="button">
-                <button className="btn">Discover morer</button>
+                <button className="btn">Discover more</button>
               </div>
             </div>
           </div>
@@ -92,8 +90,8 @@ function Home() {
       <section className="Category_grey">
         <div className="container">
           <div className='Shop by Category'>
-            <h1 className="Info_tit">Shop by Category
-            </h1>
+            <h2 className="Info_tit">Shop by Category
+            </h2>
             <div className='Category flex'>
               <div className="Category_img">
                 <Link to="" className="categoryimg1"><img src={categoryimg1} alt="" />Jewelry</Link>
@@ -112,50 +110,50 @@ function Home() {
         </div>
       </section>
       <section className="About">
-  <div className="container">
-    <h1 className="Info_tit">World of Swarovski</h1>
-    <p className="Info_txt">Illuminating the many facets of Swarovski from heritage to lifestyle and beyond.</p>
-    <button className="btn">Explore all</button>
-    <div className="About_video flex">
-      <div className="Video_card">
-        <video  autoPlay muted loop>
-          <source src={aboutvideo1} type="video/mp4" />
-        </video>
-        <div className="card-info">
-          <h1 className="Card_tit">Ocean-Inspired Jewelry</h1>
-          <p className="card_txt">Our new jewelry families are beautiful works of artistry that feature Swarovski Crystal Pearls, and a palette of blue and green Swarovski Crystals.Our attention to detail ensures that each and every piece will always be made of the highest quality. </p>
-          <div className="button">
-            <button className="btn">Read me</button>
+        <div className="container">
+          <h2 className="Info_tit">World of Swarovski</h2>
+          <p className="Info_txt">Illuminating the many facets of Swarovski from heritage to lifestyle and beyond.</p>
+          <button className="btn_about">Explore all</button>
+          <div className="About_video flex">
+            <div className="Video_card">
+              <video autoPlay muted loop>
+                <source src={aboutvideo1} type="video/mp4" />
+              </video>
+              <div className="card-info">
+                <h2 className="Card_tit">Ocean-Inspired Jewelry</h2>
+                <p className="card_txt">Our new jewelry families are beautiful works of artistry that feature Swarovski Crystal Pearls, and a palette of blue and green Swarovski Crystals.Our attention to detail ensures that each. </p>
+                <div className="button">
+                  <button className="btn">Read me</button>
+                </div>
+              </div>
+            </div>
+            <div className="Video_card">
+              <video autoPlay muted loop>
+                <source src={aboutvideo2} type="video/mp4" />
+              </video>
+              <div className="card-info">
+                <h2 className="Card_tit">A Guide to Watch Styles</h2>
+                <p className="card_txt">The perfect blend of fashion and function, watches have the power to elevate any look.The continuous evolution of material and technique makes Swarovski the leader of crystal cut creations. </p>
+                <div className="button">
+                  <button className="btn">Read me</button>
+                </div>
+              </div>
+            </div>
+            <div className="Video_card">
+              <video autoPlay muted loop>
+                <source src={aboutvideo3} type="video/mp4" />
+              </video>
+              <div className="card-info">
+                <h1 className="Card_tit">Disney’s Alice in Wonderland and friends</h1>
+                <p className="card_txt">This collection celebrates the irresistible spirit of Disney’s iconic characters, reimagining Alice in Wonderland and her friends with impeccable crystal savoir-faire. </p>
+                <div className="button">
+                  <button className="btn">Read me</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="Video_card">
-        <video autoPlay muted loop>
-          <source src={aboutvideo2} type="video/mp4" />
-        </video>
-        <div className="card-info">
-          <h1 className="Card_tit">A Guide to Watch Styles</h1>
-          <p className="card_txt">The perfect blend of fashion and function, watches have the power to elevate any look.The continuous evolution of material and technique makes Swarovski the leader of crystal cut creations. </p>
-          <div className="button">
-            <button className="btn">Read me</button>
-          </div>
-        </div>
-      </div>
-      <div className="Video_card">
-        <video autoPlay muted loop>
-          <source src={aboutvideo3} type="video/mp4" />
-        </video>
-        <div className="card-info">
-          <h1 className="Card_tit">Disney’s Alice in Wonderland and friends</h1>
-          <p className="card_txt">This collection celebrates the irresistible spirit of Disney’s iconic characters, reimagining Alice in Wonderland and her friends with impeccable crystal savoir-faire. </p>
-          <div className="button">
-            <button className="btn">Read me</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
       <div className="Home_slider">
         <Swiper
           spaceBetween={10}
@@ -167,31 +165,31 @@ function Home() {
         >
           <SwiperSlide>
             <Link className="Home_slide" to="#">
-              <img src={slider1}alt=""/>
+              <img src={slider1} alt="" />
               <p className="Home_slide-txt">
-              Learn about Swarovski’s heritage of craftsmanship, innovation, and creativity.
+                Learn about Swarovski’s heritage of craftsmanship, innovation, and creativity.
               </p>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link className="Home_slide" to="#">
-              <img src={slider2}alt=""/>
+            <Link className="Home_slide" to="#">
+              <img src={slider2} alt="" />
               <p className="Home_slide-txt">
-              From inspiration brief to collection launch, Swarovski’s creative process is uniquely prolific. With a focus on trend curation, design, and meaningful branding, every piece tells a story and embodies over 125 years of mastered craftsmanship. The continuous evolution of material and technique makes Swarovski the leader of crystal cut creations.
+                From inspiration brief to collection launch, Swarovski’s creative process is uniquely prolific. With a focus on trend curation, design, and meaningful branding, every piece tells a story and embodies over 125 years of mastered craftsmanship. The continuous evolution of material and technique makes Swarovski the leader of crystal cut creations.
               </p>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link className="Home_slide" to="#">
-              <img src={slider3}alt=""/>
+            <Link className="Home_slide" to="#">
+              <img src={slider3} alt="" />
               <p className="Home_slide-txt">Swarovski crystal settings come to life through our proprietary techniques such as Pointiage®, which lend an ultra-precise quality to work done by hand. Our attention to detail ensures that each and every piece will always be made of the highest quality. This expertise is infused in every step of the creative process, from initial design sketches through assembly.</p>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-          <Link className="Home_slide" to="#">
-              <img src={slider4}alt=""/>
+            <Link className="Home_slide" to="#">
+              <img src={slider4} alt="" />
               <p className="Home_slide-txt">
-              As a brand built on a foundation of equality , inclusivity, and self-expression, we champion our LGBTQ+ colleagues, the community at large, each and every day.
+                As a brand built on a foundation of equality , inclusivity, and self-expression, we champion our LGBTQ+ colleagues, the community at large, each and every day.
               </p>
             </Link>
           </SwiperSlide>
