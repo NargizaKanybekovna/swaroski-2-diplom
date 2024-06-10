@@ -56,3 +56,13 @@
     width: 100px;
   }
 }
+.CartCount{
+  border: 1px solid;
+  color:grey;
+
+}
+.CartDelete{
+  width: 50px;
+  height: 50px;
+  background: url(..//../img/delete.png) no-repeat;
+}

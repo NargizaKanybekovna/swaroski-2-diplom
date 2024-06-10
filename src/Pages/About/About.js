@@ -4,10 +4,30 @@ import cardimg1 from '..//../img/cardimg1.avif'
 import cardimg2 from '..//../img/cardimg2.avif'
 import cardimg3 from '..//../img/cardimg3.avif'
 import milleniaimg from '..//..//img/milleniaimg.avif'
+import video from '..//..//img/videoart.mp4'
+
+
+
 
 function About() {
   return (
     <>
+      <section className="About_2">
+
+        <div className="video_container">
+          <video width="100%" height="auto" autoPlay loop>
+            <source src={video} type="" />
+          </video>
+          <div className="button">
+            <button className="btn_home">Discover more</button>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
       <section className="Cards">
         <h2 className="Info_tit">Infinitely Inspiring</h2>
         <div className="Card_in flex">
@@ -58,8 +78,8 @@ function About() {
           <h2 className="world_txt">Millenia</h2>
           <h3 className="world_txt">A love letter to crystal</h3>
           <div className="button">
-              <button className="btn_word">Read more</button>
-            </div>
+            <button className="btn_word">Read more</button>
+          </div>
 
 
 

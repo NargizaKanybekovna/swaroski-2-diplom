@@ -1,0 +1,26 @@
+.total-container {
+    display: flex;
+    justify-content: center; /* Выравнивание по центру по горизонтали */
+    margin-top: 20px;
+  }
+  
+  .Total {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .Total_tit {
+    margin-top: 0;
+    color: #343a40;
+    font-size: 24px;
+  }
+  
+  .Total_txt {
+    margin-top: 10px;
+    color: #495057;
+    font-size: 18px;
+  }

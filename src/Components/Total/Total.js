@@ -1,5 +1,6 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { AppContext } from "../../App";
+import "./Total.css";
 
 function Total({ onOrder }) {
   const { products, cart } = useContext(AppContext);
@@ -13,10 +14,14 @@ function Total({ onOrder }) {
   const totalItems = Object.values(cart).reduce((sum, qty) => sum + qty, 0);
 
   return (
-    <div className="Total">
-      <h2>Total</h2>
-      <p>Items: {totalItems}</p>
-      <p>Price: ${totalPrice}</p>
+    <div className="total-container">
+      <div className="Total">
+        <h2 className="Total_tit">Total</h2>
+        <p className="Total_txt">Items: {totalItems}</p>
+        <p className="Total_txt">Price: ${totalPrice}</p>
+      </div>
     </div>
   );
 }
+
+export default Total;

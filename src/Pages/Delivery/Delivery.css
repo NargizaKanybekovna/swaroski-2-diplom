@@ -1,26 +1,35 @@
 .delivery-container {
-    padding: 50px;
+  width: 600px;
+    padding: 40px;
     background: rgb(246, 248, 250);
+    justify-content: center;
     
   }
   
   .delivery-options {
-    margin-bottom: 30px; 
+    margin-bottom: 5px; 
+    
   }
   
   .delivery-options h2 {
-    color: #333; 
+    color: #1c1b1b; 
+    margin-bottom: 15px;
   }
   
   .delivery-options ul {
     list-style-type: none; 
     padding-left: 0; 
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 20px;
+  
   }
   
   .delivery-options li {
-    margin-bottom: 15px; 
+    margin-bottom: 25px; 
     font-size: 16px; 
     color: #666; 
+    
   }
   
   .delivery-form {
