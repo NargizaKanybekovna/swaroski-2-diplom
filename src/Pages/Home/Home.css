@@ -139,8 +139,7 @@
     margin: 0 auto;
     margin-top: 25px;
     font-size: 15px;
-    line-height: 20px;
-}
-.Home_slide-img{
-    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
 }

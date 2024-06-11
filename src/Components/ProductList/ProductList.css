@@ -72,3 +72,6 @@
   background-color: #151516;
   color: aliceblue;
 }
+.product.image{
+  width: 150px;
+}

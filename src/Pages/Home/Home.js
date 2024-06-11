@@ -17,13 +17,12 @@ import slider2 from '..//..//img/slider2.avif'
 import slider3 from '..//..//img/slider3.avif'
 import slider4 from '..//..//img/slider4.avif'
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
-
 function Home() {
   return (
     <>
@@ -155,6 +154,9 @@ function Home() {
         </div>
       </section>
       <div className="Home_slider">
+
+
+
         <Swiper
           spaceBetween={10}
           slidesPerView={2}
@@ -165,46 +167,37 @@ function Home() {
         >
           <SwiperSlide>
             <Link className="Home_slide" to="#">
-              <img src={slider1} alt="" />
-              <p className="Home_slide-txt">
-                Learn about Swarovski’s heritage of craftsmanship, innovation, and creativity.
-              </p>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link className="Home_slide" to="#">
-              <img src={slider2} alt="" />
-              <p className="Home_slide-txt">
-                From inspiration brief to collection launch, Swarovski’s creative process is uniquely prolific. With a focus on trend curation, design, and meaningful branding, every piece tells a story and embodies over 125 years of mastered craftsmanship. The continuous evolution of material and technique makes Swarovski the leader of crystal cut creations.
-              </p>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link className="Home_slide" to="#">
-              <img src={slider3} alt="" />
-              <p className="Home_slide-txt">Swarovski crystal settings come to life through our proprietary techniques such as Pointiage®, which lend an ultra-precise quality to work done by hand. Our attention to detail ensures that each and every piece will always be made of the highest quality. This expertise is infused in every step of the creative process, from initial design sketches through assembly.</p>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link className="Home_slide" to="#">
               <img src={slider4} alt="" />
               <p className="Home_slide-txt">
                 As a brand built on a foundation of equality , inclusivity, and self-expression, we champion our LGBTQ+ colleagues, the community at large, each and every day.
               </p>
             </Link>
           </SwiperSlide>
+          <SwiperSlide>
+            <Link className="Home_slide" to="#">
+              <img src={slider3} alt="" />
+              <p className="Home_slide-txt">Swarovski crystal settings come to life through our proprietary techniques such as Pointiage®.</p>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link className="Home_slide" to="#">
+              <img src={slider2} alt="" />
+              <p className="Home_slide-txt">
+                Swarovski’s creative process is uniquely prolific.
+              </p>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link className="Home_slide" to="#">
+              <img src={slider1} alt="" />
+              <p className="Home_slide-txt">
+                Learn about Swarovski’s heritage of craftsmanship, innovation, and creativity.
+              </p>
+            </Link>
+          </SwiperSlide>
+
         </Swiper>
       </div>
-
-
-
-
-
-      <section>
-
-      </section>
-
-
     </>
 
   );

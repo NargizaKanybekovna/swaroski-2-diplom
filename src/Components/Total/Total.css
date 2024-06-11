@@ -1,16 +1,18 @@
 .total-container {
     display: flex;
-    justify-content: center; /* Выравнивание по центру по горизонтали */
+    justify-content: center; 
     margin-top: 20px;
   }
   
   .Total {
+  
     background-color: #f8f9fa;
-    border: 1px solid #ced4da;
+    border: 1px solid #0b0b0b;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
+    text-align: center;
   }
   
   .Total_tit {
@@ -21,6 +23,7 @@
   
   .Total_txt {
     margin-top: 10px;
-    color: #495057;
+    color: #6d7884;
     font-size: 18px;
+    font-weight: bold;
   }

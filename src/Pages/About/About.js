@@ -4,7 +4,9 @@ import cardimg1 from '..//../img/cardimg1.avif'
 import cardimg2 from '..//../img/cardimg2.avif'
 import cardimg3 from '..//../img/cardimg3.avif'
 import milleniaimg from '..//..//img/milleniaimg.avif'
+import handBraslet from '..//..//img/handBraslet.avif'
 import video from '..//..//img/videoart.mp4'
+
 
 
 
@@ -15,6 +17,7 @@ function About() {
       <section className="About_2">
 
         <div className="video_container">
+          
           <video width="100%" height="auto" autoPlay loop>
             <source src={video} type="" />
           </video>
@@ -71,16 +74,15 @@ function About() {
         <div className="container">
           <h2 className="Word_tit">World of Swarovski</h2>
           <p className="Word_txt">Illuminating the many facets of Swarovski from heritage to lifestyle and beyond. </p>
-          <p className="word_desc">Highlights</p>
-          <div className="word_img">
-            <Link to="" className="word_img"> <img src={milleniaimg} alt="" /></Link>
-          </div>
-          <h2 className="world_txt">Millenia</h2>
-          <h3 className="world_txt">A love letter to crystal</h3>
-          <div className="button">
-            <button className="btn_word">Read more</button>
-          </div>
-
+         
+          <div className="word_img flex">
+      <Link to="/somewhere1" className="word_img_item">
+        <img src={milleniaimg} alt="Millenia" />
+      </Link>
+      <Link to="/somewhere2" className="word_img_item">
+        <img src={handBraslet} alt="Hand Bracelet" />
+      </Link>
+    </div>
 
 
         </div>

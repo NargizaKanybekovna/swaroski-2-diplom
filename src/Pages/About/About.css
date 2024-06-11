@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-   
+
     transition: 0.5s;
     margin-top: 10px;
 }
@@ -43,7 +43,8 @@
 .world_txt {
     margin-bottom: 15px;
 }
-.video_container{
+
+.video_container {
     margin-top: 5px;
     margin-bottom: 5px;
 }
