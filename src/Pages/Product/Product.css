@@ -16,7 +16,7 @@
 }
 
 .product_img img {
-  width: 500px;
+  width: 700px;
 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,7 @@
   margin-top: 15px;
   font-weight: bold;
   font-size: 25px;
-  color: rebeccapurple;
+  color: rgb(35, 32, 38);
 }
 .Product_desc{
   width: 500px;
