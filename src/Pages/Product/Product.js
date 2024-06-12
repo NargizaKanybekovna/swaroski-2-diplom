@@ -17,24 +17,15 @@ export default function Product() {
   }
 
   return (
-    <div className="Product">
-      <div className="product_img flex">
-        <img src={product.image} alt={product.name} />
-        <div>
-        <h1>{product.name}</h1>
-        <p><strong>Price:</strong> {product.price}$</p>
-        <p><strong>Description: </strong>{product.description}</p>
-        <AddToCart product={product} />
-     
-      </div>
-      </div>
-      <div>
-        <h1>{product.name}</h1>
-        <p><strong>Price:</strong> {product.price}$</p>
-        <p><strong>Description: </strong>{product.description}</p>
-        <AddToCart product={product} />
-     
-      </div>
+    <div className="Product flex">
+        <div className="product_img">
+          <img src={product.image} alt={product.name} />
+        </div>
+        <div className="div"><h1>{product.name}</h1>
+        <p className="Product_price"><strong>Price:</strong> {product.price}$</p>
+        <p className="Product_desc"><strong>Description: </strong>{product.description}</p>
+        <AddToCart product={product} /></div>
+        
     </div>
   )
 }

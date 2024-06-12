@@ -18,7 +18,7 @@ function About() {
 
         <div className="video_container">
           
-          <video width="100%" height="auto" autoPlay loop>
+          <video width="100%" height="auto" autoPlay muted loop>
             <source src={video} type="" />
           </video>
           <div className="button">
@@ -79,9 +79,9 @@ function About() {
       <Link to="/somewhere1" className="word_img_item">
         <img src={milleniaimg} alt="Millenia" />
       </Link>
-      <Link to="/somewhere2" className="word_img_item">
+      {/* <Link to="/somewhere2" className="word_img_item">
         <img src={handBraslet} alt="Hand Bracelet" />
-      </Link>
+      </Link> */}
     </div>
 
 

@@ -144,7 +144,7 @@ main {
 .order {
 	width: 10%;
 	background-color: #f8f9fa;
-	border: 1px solid #272b2e;
+	border: 1px solid #727577;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -156,6 +156,7 @@ main {
 	cursor: pointer;
 	transition:0.3s ease;
 	margin-top: 15px;
+	margin-bottom: 15px;
   }
   
   .order:hover {

@@ -6,8 +6,6 @@ function Contacts() {
 			<section class="contact">
 				<div class="container">
 					<h2 class="page_tit">Contact Us</h2>
-					
-
 					<form action="" class="form form_book">
 						<div class="form_in flex">
 							<div class="form_input">
@@ -32,6 +30,16 @@ function Contacts() {
 						</div>
 					</form>
 				</div>
+				<div id="map">
+					<iframe class="google-map"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.060689353338!2d16.36837377563033!3d48.20544694643475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079ea7280281%3A0xb51a2f38712420e1!2z0JzQsNCz0LDQt9C40L0g0KHQstCw0YDQvtCy0YHQutC4!5e0!3m2!1sru!2skg!4v1718124120799!5m2!1sru!2skg"
+						width="600"
+						height="450"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade">
+					</iframe>
+				</div>
 				<div class="address">
 					<div class="container">
 						<div class="address_in flex">
@@ -54,7 +62,8 @@ function Contacts() {
 						</div>
 					</div>
 				</div>
-				
+
+
 			</section>
 
 
